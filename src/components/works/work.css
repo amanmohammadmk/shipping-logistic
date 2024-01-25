@@ -1,0 +1,134 @@
+.work {
+    width: 100%;
+    padding: 140px;
+    gap: 20px;
+}
+
+.work-top{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.work-top-left{
+    width: 50%;
+    padding: 20px;
+}
+
+.work-top-right{
+    width: 50%;
+    padding: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: start;
+    text-align: left;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.top-right-head{
+    color:#0E33CB;
+    font-size: 10px;
+}
+
+.top-right-main{
+     font-size: 40px;
+     color: #121D50;
+}
+
+.top-right-content{
+    
+}
+
+.work-bottom{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.work-bottom-sub{
+    width: 27%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    gap: 29px;
+}
+
+.work-bottom-sub-step{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px 15px;
+    border: 1px solid;
+    border-radius: 50px;
+    font-size: 10px;
+}
+
+.work-bottom-sub-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 15px;
+    background-color: #1195D6;
+    border-radius: 8px;
+}
+
+.work-bottom-sub-head{
+    font-size: 25px;
+    color: #121D50;
+}
+
+
+@media (max-width: 1068px) {
+
+    .work {
+        padding: 10px;
+    }
+
+    .work-top{
+        flex-direction: column;
+        
+    }
+    
+    .work-top-left{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    
+    }
+    
+    .work-top-right{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .top-right-head{
+    width: 100%;
+    }
+
+    .work-bottom{
+        flex-direction: column;
+    }
+
+    .work-bottom-sub{
+        width: 100%;
+       
+    }
+
+    .work-bottom-sub-head{
+        font-size: 15px;;
+    }
+   
+
+}

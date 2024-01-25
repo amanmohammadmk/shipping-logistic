@@ -1,0 +1,125 @@
+.call{
+    padding: 140px;
+    gap: 10px;
+    display: flex;
+}
+
+.call-left{
+    width: 50%;
+    padding: 20px;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.call-left-content{
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.call-left-content h4{
+    color:  #0E33CB;
+}
+
+.call-left-content h1{
+    width: 100%;
+    font-size: 60px;
+}
+
+.call-left-sub-main{
+ margin-top: 3%;
+}
+
+.call-left-sub{
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+}
+
+.call-left-sub-logo{
+    width: 50px;
+    height: 50px;
+    background-color: #2980b9;
+}
+
+.call-left-sub-content{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    text-align: left;
+    flex-direction: column;
+}
+
+.call-right{
+    background-color:#EDF0F3;
+    width: 50%;
+    height: 600px;
+    border-radius: 10px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.call-box{
+    background-color:#EDF0F3;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding:5px 30px;
+}
+
+.call-box input {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    height: 40px;
+    border-radius: 10px;
+    font-size: 16px;
+    line-height: 1.5;
+    border: 1px solid #ccc; 
+    padding: 0 15px; 
+    width: 100%;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease; 
+    background-color: #f9f9f9;
+    color: #333;
+    appearance: none;
+    &:focus {
+      border-color: #3498db; 
+      box-shadow: 0 0 6px rgba(52, 152, 219, 0.5); 
+      outline: none;
+    }
+  }
+
+  .call-button{
+    width: 30%;
+    background-color:#3498db; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+  }
+
+  
+@media(max-width: 1068px){
+    .call{
+        padding: 30px;
+        flex-direction: column;
+    }
+
+    .call-left{
+        width: 100%;
+      
+    }
+
+    .call-left-content h1{
+        font-size: 30px;
+    }
+
+    .call-right{
+
+        width: 100%;
+       
+    }
+}
